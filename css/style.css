@@ -361,7 +361,8 @@ a:hover{
 
 .social-icons ul li{
 	list-style: none;
-	display: inline-block;
+    display: inline-block;
+    padding-right: 5px;
 }
 .social-icons ul li a{
 	text-align: center;
@@ -375,7 +376,7 @@ a:hover{
 	background: #15A4FA;
 	border: 1px solid #15A4FA;
 	color: #fff;
-	font-size: 22px;
+    font-size: 22px;
 }
 .social-icons ul li a i:hover{
 	background: transparent;
