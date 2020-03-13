@@ -1,0 +1,391 @@
+/***********************************
+**********Global CSS Starts*********
+************************************/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: tahoma;
+    font-size: 14px;
+    line-height: 24px;
+} 
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/***********************************
+***********Global CSS Ends********** 
+************************************/
+
+/***********************************************************************************************************************/
+
+/***********************************
+***************COLORS*************** 
+************************************/
+
+.ash{
+    background-color: #f6f9f9;
+}
+
+/***********************************
+***************COLORS*************** 
+************************************/
+
+/***********************************************************************************************************************/
+
+/***********************************
+********Banner Section Start******** 
+************************************/
+.banner-section{
+    width: 100%;
+    padding: 80px 0px;
+    float: left;
+    background: url(../images/BG1.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-inner{
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+}
+
+.banner-inner h1{
+    font-size: 85px;
+    line-height: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.divider{
+    width: 48%;
+    margin: 0px auto 20px;
+    height: 2px;
+    background-color: #15a4fa;
+}
+
+.banner-inner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+
+.banner-inner .btn{
+    padding: 12px 35px;
+    border: 1px solid #15a4fa;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner-inner .btn:hover{
+    border: 1px solid #15a4fa;
+    background: #15a4fa;
+    color: #fff;
+    transition: 1s;
+}
+.arrow{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    position: relative;
+}
+
+.arrow img{
+    position: absolute;
+    bottom: -120px;
+    left: 49%;
+}
+
+/***********************************
+********Banner Section End********** 
+************************************/
+
+/***********************************************************************************************************************/
+
+/***********************************
+*********Typo Section Start********* 
+************************************/
+.typo-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background-color: #f6f9f9;
+    text-align: center;
+
+}
+.typo-section h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #2d3950;
+}
+
+
+.typo-section p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #b2b3b3;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/***********************************
+**********Typo Section ENd********** 
+************************************/
+
+/***********************************************************************************************************************/
+
+
+/***********************************
+*********Feature Section Start******
+************************************/
+.featured-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.featured-inner{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+    text-align: center;
+
+}
+.featured-inner img{
+    margin-bottom: 20px;
+}
+
+.featured-inner h4{
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #2d3950;
+}
+
+.featured-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #b2b3b3;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+
+/***********************************
+**********Feature Section End*******
+************************************/
+
+/***********************************************************************************************************************/
+
+/***********************************
+*******Portfolio Section Start******
+************************************/
+
+
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+	position: relative;
+}
+.portfolio-inner{
+	width: 100%;
+	position: relative;
+}
+
+.portfolio-inner .port-inner {
+    width: 103%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgb(21,164,250, .6 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+
+}
+.portfolio-inner:hover .port-inner{
+	display: block;
+	transition: 1s;
+}
+.port-inner ul{
+	position: absolute;
+	top: 40%;
+    left: 35%;
+}
+.port-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.port-inner ul li a{
+	margin:0px 5px; 
+}
+.port-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 22px;
+}
+.mar{
+	margin-top: 15px;
+}
+
+/***********************************
+********Portfolio Section End*******
+************************************/
+
+/***********************************************************************************************************************/
+
+/***********************************
+*****Contact Area Section Start*****
+************************************/
+
+.contact-area{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url(../images/cb.png) center top no-repeat;
+	background-size: cover;
+}
+
+.contact-area h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+}
+.contact-area p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #a7a8a8;
+    font-weight: normal;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.contact-inner{
+    color: #fff;
+    
+}
+.form-group{
+	width: 100%;
+}
+.form-control{
+
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: transparent;
+	border: 1px solid #999;
+	border-radius: 3px;
+}
+.form-control:hover{
+    background: transparent;
+    border:1px solid #15a4fa;
+}
+.text-right{
+	text-align: right;
+}
+.contact-inner .btn{
+	padding: 7px 30px;
+	background: transparent;
+	color: #fff;
+	border:1px solid #fff;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.contact-inner .btn:hover{
+    background: transparent;
+    border:1px solid #15a4fa;
+    color: #fff;
+}
+
+
+/***********************************
+******Contact Area Section End******
+************************************/
+
+/***********************************************************************************************************************/
+
+/***********************************
+****Footer Section Section Start****
+************************************/
+
+.footer-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 15px 0px;
+}
+.footer-section p {
+    font-size: 12px;
+    color: #999;
+    margin-top: 15px;
+}
+.social-icons{
+	width: 100%;
+	text-align: right;
+}
+
+.social-icons ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons ul li a{
+	text-align: center;
+
+}
+.social-icons ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 0px;
+	background: #15A4FA;
+	border: 1px solid #15A4FA;
+	color: #fff;
+	font-size: 22px;
+}
+.social-icons ul li a i:hover{
+	background: transparent;
+	border: 1px solid #15A4FA;
+	color: #15A4FA;
+}
+
+/***********************************
+*****Footer Section Section End*****
+************************************/
+
+/******************************************************* THE END *********************************************************/
+
